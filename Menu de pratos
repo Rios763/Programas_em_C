@@ -1,3 +1,10 @@
+/* 
+
+Enunciado:
+Faça um programa que imprima um menu de 4 pratos na tela e uma quinta opção para sairdo programa.
+O programa deve imprimir o prato solicitado. O programa deve terminarquando for escolhido a quinta opção.
+*/
+
 #include <stdio.h>
 
 int main(){
