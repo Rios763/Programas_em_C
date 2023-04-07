@@ -6,9 +6,9 @@ de A elevado à B.
 */
 
 #include <stdio.h>
-#include <math.h>
+
 int main(){
-unsigned int a, b, resultado;
+int a, b, resultado;
 
 printf("Utilizando somente numeros inteiros positivos->\n");
 printf ("Digite a base A da potencia:\n");
@@ -16,8 +16,12 @@ scanf("%d", &a);
 printf ("Digite o expoente B da potencia:\n");
 scanf("%d", &b);
 
-resultado = pow(a , b);
+resultado = 1;
+for( int i =0; i<b; i++){
+    resultado *= a;
+
+
+}
 
 printf("O resultado da potencia e: %d", resultado);
-
 }
